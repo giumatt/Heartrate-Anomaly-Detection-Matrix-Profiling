@@ -2,6 +2,8 @@
 
 This project implements anomaly detection on heartrate time-series data using the **Matrix Profile** technique, powered by the [STUMPY](https://stumpy.readthedocs.io/) library. It reads input data, computes matrix profiles, identifies anomalies, visualizes results, and exports findings for further analysis.
 
+![Anomaly Detection Plot](plot.png)
+
 ## Features
 - **Matrix Profile Computation**: Detects unusual patterns in time-series data using STUMPY.
 - **Anomaly Detection**: Identifies timestamps where anomalies occur based on a configurable threshold.
